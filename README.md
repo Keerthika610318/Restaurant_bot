@@ -26,23 +26,23 @@ cd Restaurant_bot
 ```
 
 ### 3. Environment Setup (API Keys & Credentials)
-**cp .env.example .env**
-**For Windows users, use: copy .env.example .env**
-**If you are on Windows, you might use: copy .env.example .env**
-**Fill in your Credentials**
-**Install dependency**
-**Run your main_code** 
+* **cp .env.example .env**
+* **For Windows users, use: copy .env.example .env**
+* **If you are on Windows, you might use: copy .env.example .env**
+* **Fill in your Credentials**
+* **Install dependency**
+* **Run your main_code** 
 
 ```bash
 python -m uvicorn main_code:app --reload
 ```
 
 ### 4.Project Structure
-**main_code.py: (Briefly describe: e.g., The main entry point of the bot, handles user input and orchestrates responses.)**
-**apisetting.py: (Briefly describe: e.g., Manages API key loading and configurations for external services.)**
-**chains.py: (Briefly describe: e.g., Defines the conversational flow or AI prompt chains.)**
-**prompts.py: (Briefly describe: e.g., Contains predefined prompts or initial system messages for the AI model.)**
-**data_new.csv: (Briefly describe: e.g., A dataset used for populating restaurant information or training.)**
-**Requirements.txt: Lists all Python dependencies.**
-**env.example: Provides a template for setting up environment variables.**
-**gitignore: Specifies files and directories that Git should ignore.**
+* **main_code.py: (Briefly describe: e.g., The main entry point of the bot, handles user input and orchestrates responses.)**
+* **apisetting.py: (Briefly describe: e.g., Manages API key loading and configurations for external services.)**
+* **chains.py: (Briefly describe: e.g., Defines the conversational flow or AI prompt chains.)**
+* **prompts.py: (Briefly describe: e.g., Contains predefined prompts or initial system messages for the AI model.)**
+* **data_new.csv: (Briefly describe: e.g., A dataset used for populating restaurant information or training.)**
+* **Requirements.txt: Lists all Python dependencies.**
+* **env.example: Provides a template for setting up environment variables.**
+* **gitignore: Specifies files and directories that Git should ignore.**
