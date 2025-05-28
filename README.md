@@ -26,11 +26,12 @@ cd Restaurant_bot
 ```
 
 ### 3. Environment Setup (API Keys & Credentials)
-cp .env.example .env
- If you are on Windows, you might use: copy .env.example .env
- Fill in your Credentials
- Install dependency
- Run your main_code 
+ # cp .env.example .env
+# For Windows users, use: copy .env.example .env
+# If you are on Windows, you might use: copy .env.example .env
+# Fill in your Credentials
+# Install dependency
+# Run your main_code 
 
 ```bash
 python -m uvicorn main_code:app --reload
