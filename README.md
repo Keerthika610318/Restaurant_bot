@@ -13,7 +13,7 @@ Follow these steps to set up and run the Restaurant Bot on your local machine.
 Before you begin, ensure you have the following installed:
 
 * **Python 3.x** (`(e.g., Python 3.9 or higher is recommended)`)
-* **pip** (Python package installer, usually comes with Python)
+* **pip** (Python package installer, usually comes with Python) 
 * **Git** (for cloning the repository)
 
 ### 2. Clone the Repository
