@@ -1,0 +1,11 @@
+pip install langchain
+pip install openai
+pip install -U langchain-community
+pip install --upgrade langchain
+sudo apt-get update
+pip install  pandas 
+pip install pydantic
+pip install tiktoken
+pip intsall fastapi
+pip install uvicorn
+pip install python-dotenv
